@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>To-Do App</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>To-Do List</h1>
+  <div class="container">
+    <h1>Todo List</h1>
+    <div class="form-group">
+      <input type="text" id="todo-input" placeholder="Add a todo . . ." />
+      <input type="date" id="date-input" />
+      <button id="add-btn">+</button>
+    </div>
+    <div class="actions">
+      <button id="filter-btn">Filter</button>
+      <button id="delete-all-btn">Delete All</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Due Date</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="todo-table-body">
+        <tr>
+          <td colspan="4" class="no-task">No task found</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    Made with ❤️ by <strong>Helen Puspita </strong>
+  </footer>
+
   <script src="js/script.js"></script>
 </body>
 </html>
+

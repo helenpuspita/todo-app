@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #0f172a;
+    background-color: #01213A;
     color: #e2e8f0;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
@@ -12,7 +12,7 @@ body {
   }
   
   .container {
-    background-color: #1e293b;
+    background-color: #005A8E;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px #334155;
@@ -23,7 +23,7 @@ body {
   
   h1 {
     margin-bottom: 1rem;
-    color: #cbd5e1;
+    color: #9DC9CC;
   }
   
   .form-group {
@@ -84,7 +84,7 @@ body {
   
   footer {
     margin-top: 2rem;
-    color: #94a3b8;
+    color: #DFD2D5;
     font-size: 0.875rem;
   }
   
